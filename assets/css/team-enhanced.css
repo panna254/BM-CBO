@@ -1,0 +1,80 @@
+.member-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(44, 56, 78, 0.9);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  padding: 20px;
+}
+
+.team-member:hover .member-overlay {
+  opacity: 1;
+}
+
+.member-social {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.member-social a {
+  color: #fff;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.member-social a:hover {
+  color: #2c384e;
+}
+
+.member-details {
+  text-align: center;
+  color: #fff;
+}
+
+.member-details h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.member-details p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.member-skills {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.member-skills li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.member-skills i {
+  color: #2c384e;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .member-overlay {
+    padding: 15px;
+  }
+  
+  .member-details h4 {
+    font-size: 16px;
+  }
+  
+  .member-details p,
+  .member-skills li {
+    font-size: 13px;
+  }
+}
