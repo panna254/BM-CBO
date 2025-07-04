@@ -1,0 +1,39 @@
+.contact .section {
+  padding: 150px 0;
+}
+
+.contact .info {
+  margin-bottom: 80px;
+}
+
+.contact .info-item {
+  margin-bottom: 30px;
+}
+
+.contact .php-email-form {
+  margin-top: 60px;
+}
+
+.contact #sendmessage {
+  margin-top: 30px;
+}
+
+.contact #errormessage {
+  margin-top: 30px;
+}
+
+.contact .php-email-form .form-group {
+  margin-bottom: 25px;
+}
+
+.contact .php-email-form .validate {
+  margin-top: 15px;
+}
+
+.contact .php-email-form .error-message {
+  margin-top: 15px;
+}
+
+.contact .php-email-form .sent-message {
+  margin-top: 30px;
+}
