@@ -1,0 +1,156 @@
+/* Support Section Styles */
+.support-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h2 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.section-header p {
+  color: #666;
+  font-size: 18px;
+}
+
+.support-item {
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.support-item:hover {
+  transform: translateY(-10px);
+}
+
+.support-item.featured {
+  border: 2px solid #3498db;
+}
+
+.support-item.featured:hover {
+  border-color: #2980b9;
+}
+
+.support-icon {
+  width: 80px;
+  height: 80px;
+  background: #3498db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.support-item.featured .support-icon {
+  background: #2980b9;
+}
+
+.support-item h3 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.support-item .description {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.support-options,
+.payment-methods,
+.fundraise-ideas {
+  margin-bottom: 20px;
+}
+
+.support-options h4,
+.payment-methods h4,
+.fundraise-ideas h4 {
+  font-size: 18px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.support-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.support-item li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+}
+
+.support-item li:before {
+  content: "•";
+  color: #3498db;
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  left: 0;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  background: #3498db;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+  margin: 10px 0;
+}
+
+.cta-btn:hover {
+  background: #2980b9;
+}
+
+.cta-btn.outline {
+  background: transparent;
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.cta-btn.outline:hover {
+  background: #3498db;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .support-item {
+    margin-bottom: 30px;
+  }
+  
+  .section-header h2 {
+    font-size: 28px;
+  }
+  
+  .support-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+  }
+  
+  .cta-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
